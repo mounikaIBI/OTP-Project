@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name = "Reports.Reporting"/>
+</listeners>
+  <test name="Test">
+    <classes>
+    
+      <class name="OtpTest.RunTests1"/>
+      <class name ="OtpTest.TestStopTrip"/>
+      <class name="OtpTest.RunTests2"/>
+      <class name ="OtpTest.TestStop"/>
+     
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
