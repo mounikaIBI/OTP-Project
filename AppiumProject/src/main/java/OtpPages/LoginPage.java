@@ -42,7 +42,7 @@ public class LoginPage  {
 	}
 	public void clickloginbutton() {
 		gf.Click(loginbutton);
-		//loginbutton.click();
+		
 	}
 }
 
